@@ -25,14 +25,15 @@ Or install it yourself as:
 DateTimeFormats adds support for common formats to "Time#to_s" method
 
 ```ruby
-Time.now.to_s(:year)
-Time.now.to_s(:slash)
+Time.now.to_s(:year)  # => 2012
+Time.now.to_s(:slash) # => 1/01/2012
 ```
 
 DateTimeFormats comes with a default set of formats. You can define your own by adding a config/date_time_formats.yml file to your Rails app.
 The syntax is "key: format" like
 
 ```yml
+# config/date_time_formats.yml
 year_and_day: "%Y-%d"
 # Usage: Time.now.to_s(:year_and_day)
 ```
