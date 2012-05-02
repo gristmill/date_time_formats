@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    date_time_formats (0.0.1)
+    date_time_formats (0.1.0)
       rails (~> 3.2.3)
 
 GEM
