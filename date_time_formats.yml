@@ -1,0 +1,12 @@
+year:             "%Y"
+month:            "%m"
+day:              "%day"
+
+dash:             "%m-%d-%Y"
+dash_with_time:   "%m-%d-%Y %H:%M"
+
+slash:            "%m/%d/%Y"
+slash_with_time:  "%m/%d/%Y %H:%M"
+
+full:             "%A %B %d, %Y"
+full_with_time:   "%A %B %d, %Y %H:%M"
