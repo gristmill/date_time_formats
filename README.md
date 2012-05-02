@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-DateTimeFormats adds support for common formats to "Time#to_s" method
+DateTimeFormats adds support for common formats on the "Time#to_s" method
 
 ```ruby
 Time.now.to_s(:year)  # => 2012
