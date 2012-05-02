@@ -4,6 +4,8 @@ Almost every Rails project I start requires the use of custom formats for output
 forget the constant name for the initializer. It's Time::DATE_FORMATS. I inevitably have to google or look in previous projects. Not a big deal, but nonetheless,
 it's unnecessary.
 
+This Gem gives you a bunch of common formats as well as letting you define your own in a date_time_formats.yml file.
+
 ## Installation
 
 Add this line to your application's Gemfile:
