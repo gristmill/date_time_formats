@@ -1,6 +1,6 @@
 year:             "%Y"
 month:            "%m"
-day:              "%day"
+day:              "%d"
 
 dash:             "%m-%d-%Y"
 dash_with_time:   "%m-%d-%Y %H:%M"
