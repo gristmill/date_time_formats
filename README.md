@@ -1,7 +1,7 @@
 # DateTimeFormats
 
 Almost every Rails project I start requires the use of custom formats for outputting Time. It's pretty trivial to add to a project, but I always
-forget the constant name. It's Time::DATE_FORMATS. I inevitably have to google or look in previous projects. Not a big deal, but nonetheless,
+forget the constant name for the initializer. It's Time::DATE_FORMATS. I inevitably have to google or look in previous projects. Not a big deal, but nonetheless,
 it's unnecessary.
 
 ## Installation
