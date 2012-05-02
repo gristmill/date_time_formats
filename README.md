@@ -35,7 +35,6 @@ The syntax is "key: format" like
 ```yml
 # config/date_time_formats.yml
 year_and_day: "%Y-%d"
-# Usage: Time.now.to_s(:year_and_day)
 ```
 
 ## Contributing
