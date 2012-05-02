@@ -1,6 +1,8 @@
 # DateTimeFormats
 
-TODO: Write a gem description
+Almost every Rails project I start requires the use of custom formats for outputting Time. It's pretty trivial to add to a project, but I always
+forget the constant name. It's Time::DATE_FORMATS. I inevitably have to google or look in previous projects. Not a big deal, but nonetheless,
+it's unnecessary.
 
 ## Installation
 
@@ -18,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+DateTimeFormats adds support for common formats to "Time#to_s" method
+
+```ruby
+Time.now.to_s(:year)
+Time.now.to_s(:slash)
+```
+
+DateTimeFormats comes with a default set of formats. You can define your own by adding a config/date_time_formats.yml file to your Rails app.
+The syntax is "key: format" like
+
+```yml
+year_and_day: "%Y-%d"
+# Usage: Time.now.to_s(:year_and_day)
+```
 
 ## Contributing
 
