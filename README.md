@@ -30,7 +30,7 @@ Time.now.to_s(:slash) # => 1/01/2012
 ```
 
 DateTimeFormats comes with a default set of formats. You can define your own by adding a config/date_time_formats.yml file to your Rails app.
-The syntax is "key: format" like
+The syntax is simple key value YAML.
 
 ```yml
 # config/date_time_formats.yml
